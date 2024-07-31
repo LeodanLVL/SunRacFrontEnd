@@ -4,6 +4,11 @@
   height: 100dvh;
   float: left;
   background-color: #888;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  
 }
 .mainl{
   width: 65%;
@@ -11,14 +16,35 @@
   float: right;
 }
 .main_logo{
-  width: 40%;
+  width: 70%;
   display: flex;
   align-items: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   
 }
-
+.options_text{
+  font-size: 2rem;
+  color: aliceblue;
+}
+.logoOptions{
+  width: 100%;
+}
+.logoleftSideoptions{
+  width: 30%;
+}
+.options{
+  width: 40%;
+  margin: 10%;
+  border-radius: 12%;
+  right: 50%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  
+  
+}
 body{
   margin: 0px;
 }
